@@ -1,2 +1,2 @@
-* * * * * root git -C /tmp/repo pull
-* * * * * root cp /tmp/repo/index.html /usr/share/nginx/html
+1 * * * * root git -C /tmp/repo pull
+1 * * * * root cp /tmp/repo/index.html /usr/share/nginx/html
