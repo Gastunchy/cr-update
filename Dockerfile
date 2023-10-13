@@ -7,7 +7,6 @@ RUN apt-get update && apt-get -y install cron
 # Copia el contenido del repositorio
 RUN apt-get -y install git
 RUN git clone https://github.com/Gastunchy/cr-update-page.git /tmp/repo
-RUN git clone https://github.com/Gastunchy/cr-update.git /tmp/repo
 
 # Copia el archivo de configuración cron al contenedor
 COPY cronjob /etc/cron.d/cronjob
