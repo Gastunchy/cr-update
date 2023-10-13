@@ -15,8 +15,6 @@ RUN chmod 0644 /etc/cron.d/cronjob
 # Copia el archivo index.html de NGINX (este archivo debe existir en tu host)
 # COPY index.html /usr/share/nginx/html/
 RUN mv /tmp/repo/index.html /usr/share/nginx/html/index.html
-# Exponer el puerto 80
-EXPOSE 80
 
 # Iniciar NGINX y el demonio cron
 CMD service cron start && nginx -g 'daemon off;'
