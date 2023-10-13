@@ -1,0 +1,4 @@
+# Comando que ejecuta un pull para actualizar el contenido del repositorio
+* * * * * root git -C /tmp/repo pull
+# actualizacion del index.html
+* * * * * root cp /tmp/repo/index.html /usr/share/nginx/html
