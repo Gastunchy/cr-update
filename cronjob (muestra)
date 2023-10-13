@@ -1,4 +1,4 @@
-# Comando que ejecuta un pull para actualizar el contenido del repositorio
+# Comando que ejecuta un pull para actualizar el contenido del repositorio cada 1 min
 * * * * * root git -C /tmp/repo pull
 # actualizacion del index.html
 * * * * * root cp /tmp/repo/index.html /usr/share/nginx/html
